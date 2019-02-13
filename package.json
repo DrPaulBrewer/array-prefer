@@ -1,0 +1,29 @@
+{
+  "name": "array-prefer",
+  "version": "0.1.0",
+  "description": "return array sorted by boolean priority function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --slow 50 --timeout 2000",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/array-prefer.git"
+  },
+  "keywords": [
+    "array priority"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/array-prefer#issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/array-prefer#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
