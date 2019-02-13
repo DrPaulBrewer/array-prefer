@@ -4,7 +4,7 @@ array-prefer
 [![Build Status](https://travis-ci.org/DrPaulBrewer/array-prefer.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/array-prefer)
 [![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/array-prefer/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/array-prefer?branch=master)
 
-Returns a copy of the input array, with preferred items moved to the front.
+Returns a copy of the input array, with preferred items moved to the front. 
 
 ## Installation
 
